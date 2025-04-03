@@ -1,5 +1,5 @@
 # Container image that runs your code
-FROM alpine:latest
+FROM public.ecr.aws/docker/library/alpine:latest
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
